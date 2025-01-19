@@ -1,0 +1,23 @@
+{
+  "version": "2.0",
+  "template": {
+    "outputs": [
+      {
+        "simpleText": {
+          "text": "예약하실 날짜를 선택해주세요."
+        }
+      }
+    ],
+    "quickReplies": [
+      {
+        "action": "dateTimePicker",
+        "label": "날짜 선택",
+        "messageText": "날짜를 선택합니다",
+        "mode": "DATE",
+        "initial": "2024-03-20",
+        "min": "2024-03-20",
+        "max": "2025-12-31"
+      }
+    ]
+  }
+} 
